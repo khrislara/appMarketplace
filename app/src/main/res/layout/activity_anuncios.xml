@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+<<<<<<< HEAD
+    android:background="@color/verdeclaro"
+=======
+    android:background="@color/white"
+>>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
+    tools:context=".AnunciosActivity">
+    <!-- 1. AppBar con la Toolbar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_anuncios"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+<<<<<<< HEAD
+            android:background="@color/verdeEtiqueta"
+            app:title="Mis Anuncios"
+            app:titleTextColor="@color/blanco" />
+=======
+            android:background="?attr/colorPrimary"
+            app:title="Mis Anuncios"
+            app:titleTextColor="@color/white" />
+>>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
+    </com.google.android.material.appbar.AppBarLayout>
+    <!-- 2. Contenido Principal: RecyclerView de Productos -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_mis_productos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:paddingBottom="56dp"
+        android:clipToPadding="false"
+        tools:listitem="@layout/item_producto"/>
+    <!-- 3. Barra de Navegación Inferior (Mismo ID que en Home y Cuenta) -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@menu/bottom_nav_menu" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
