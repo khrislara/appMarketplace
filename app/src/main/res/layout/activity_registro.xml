@@ -6,11 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="32dp"
-<<<<<<< HEAD
     android:background="@color/blanco"
-=======
-    android:background="@color/white"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
     tools:context=".Registro">
     <!-- Guía Horizontal para centrar el formulario (Ajustada al 25% para mejor
    espacio) -->
@@ -28,11 +24,7 @@
         android:text="Crea tu Cuenta"
         android:textSize="36sp"
         android:textStyle="bold"
-<<<<<<< HEAD
         android:textColor="@color/verdeEtiqueta"
-=======
-        android:textColor="@color/black"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
         app:layout_constraintBottom_toTopOf="@+id/tv_subtitle_registro"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +38,7 @@
         android:text="Únete a la comunidad de MarketPlace."
         android:textSize="16sp"
         android:gravity="center"
-        android:textColor="@android:color/darker_gray"
+        android:textColor="@color/verdeEtiqueta"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toTopOf="@+id/til_nombre"
@@ -130,11 +122,7 @@
         android:clickable="true"
         android:focusable="true"
         android:text="¿Ya tienes cuenta? Inicia sesión."
-<<<<<<< HEAD
         android:textColor="@color/verdeEtiqueta"
-=======
-        android:textColor="?attr/colorPrimary"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

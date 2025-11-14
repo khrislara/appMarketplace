@@ -25,7 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteX="8dp"
-        tools:backgroundTint="#E0E0E0">
+        tools:backgroundTint="#8BC34A">
         <!-- tools:backgroundTint simula el color para la vista previa -->
         <LinearLayout
             android:id="@+id/ll_bubble_background"
@@ -58,11 +58,7 @@ burbuja." />
                 android:layout_marginTop="4dp"
                 android:textSize="10sp"
                 android:text="10:30 AM"
-<<<<<<< HEAD
                 android:textColor="#023C09" />
-=======
-                android:textColor="#888888" />
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

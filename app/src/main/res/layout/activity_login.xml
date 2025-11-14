@@ -12,7 +12,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="48dp"
-        android:src="@drawable/login_blue"
+        android:src="@drawable/ic_person"
         android:contentDescription="Logo de Marketplace"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,11 +70,7 @@
         android:layout_marginTop="24dp"
         android:padding="8dp"
         android:text="¿No tienes cuenta? Regístrate aquí"
-<<<<<<< HEAD
         android:textColor="@color/verdeEtiqueta"
-=======
-        android:textColor="?attr/colorPrimary"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

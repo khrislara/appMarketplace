@@ -1,27 +1,22 @@
 package com.example.myapplication;
 
-<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageButton;
-=======
-import android.os.Bundle;
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-<<<<<<< HEAD
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.button.MaterialButton;
 import com.example.myapplication.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
-=======
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.button.MaterialButton;
-import com.example.myapplication.R;
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
+import com.google.android.material.navigation.NavigationBarView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.auth.FirebaseAuth;
 public class CuentaActivity extends AppCompatActivity {
     // Vistas para los datos
     private TextView tvValorNombres;
@@ -29,64 +24,35 @@ public class CuentaActivity extends AppCompatActivity {
     private TextView tvValorMiembro;
     private TextView tvValorTelefono;
     private TextView tvValorEstado;
-<<<<<<< HEAD
-
-=======
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
     // Botones de Opciones
     private MaterialButton btnEditarPerfil;
     private MaterialButton btnCambiarPassword;
     private MaterialButton btnEliminarAnuncios;
     private MaterialButton btnCerrarSesion;
-<<<<<<< HEAD
-
     // Elementos de Navegación Inferior
     private BottomNavigationView bottomNav;
     private FloatingActionButton fabPublicar;
-
+    // SEMANA 8: Declaración de Firebase Auth
+    private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuenta);
-
+        // SEMANA 8: Inicialización de Firebase Auth
+        mAuth = FirebaseAuth.getInstance();
         // 1. Configurar la Toolbar
         Toolbar toolbar = findViewById(R.id.toolbar_cuenta);
         setSupportActionBar(toolbar);
-
         // 2. Inicializar Vistas de Información
         inicializarVistasInformacion();
-
         // 3. Cargar Datos Estáticos
         cargarDatosPerfil();
-
         // 4. Inicializar y Configurar Listeners para los Botones
         inicializarBotonesOpciones();
         configurarListenersBotones();
-
-
-
         //Configuración de la Cabecera
         configurarCabecera();
     }
-
-=======
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        // Debe coincidir con el nombre de tu layout XML
-        setContentView(R.layout.activity_cuenta);
-        // 1. Configurar la Toolbar
-        Toolbar toolbar = findViewById(R.id.toolbar_cuenta);
-        setSupportActionBar(toolbar);
-        // 2. Inicializar Vistas de Información
-        inicializarVistasInformacion();
-        // 3. Cargar Datos Estáticos
-        cargarDatosPerfil();
-        // 4. Inicializar y Configurar Listeners para los Botones
-        inicializarBotonesOpciones();
-        configurarListenersBotones();
-    }
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
     private void inicializarVistasInformacion() {
         // Enlazar los IDs definidos en activity_cuenta.xml
         tvValorNombres = findViewById(R.id.tv_valor_nombres);
@@ -95,10 +61,6 @@ public class CuentaActivity extends AppCompatActivity {
         tvValorTelefono = findViewById(R.id.tv_valor_telefono);
         tvValorEstado = findViewById(R.id.tv_valor_estado);
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
     private void cargarDatosPerfil() {
         //Se cargan los datos del usuario (Estos valores son estáticos por ahora)
         tvValorNombres.setText("Prueba Prueba Prueba Prueba");
@@ -107,65 +69,47 @@ public class CuentaActivity extends AppCompatActivity {
         tvValorTelefono.setText("No disponible");
         tvValorEstado.setText("Verificado");
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
     private void inicializarBotonesOpciones() {
         btnEditarPerfil = findViewById(R.id.btn_editar_perfil);
         btnCambiarPassword = findViewById(R.id.btn_cambiar_password);
         btnEliminarAnuncios = findViewById(R.id.btn_eliminar_anuncios);
         btnCerrarSesion = findViewById(R.id.btn_cerrar_sesion);
     }
-<<<<<<< HEAD
-
     private void configurarListenersBotones() {
-
         btnEditarPerfil.setOnClickListener(v -> {
             Intent intent = new Intent(CuentaActivity.this, EditarPerfilActivity.class);
             startActivity(intent);
         });
-
         btnCambiarPassword.setOnClickListener(v -> {
             Intent intent = new Intent(CuentaActivity.this, CambiarPasswordActivity.class);
             startActivity(intent);
-        });
-
-        btnEliminarAnuncios.setOnClickListener(v -> {
-            Toast.makeText(this, "Mostrar diálogo de confirmación para eliminar anuncios", Toast.LENGTH_SHORT).show();
-            // Lógica para mostrar AlertDialog
-        });
-
-=======
-    private void configurarListenersBotones() {
-        btnEditarPerfil.setOnClickListener(v -> {
-            Toast.makeText(this, "Navegar a Editar Perfil", Toast.LENGTH_SHORT).show();
-            // Lógica para Intent a EditarPerfilActivity
-        });
-        btnCambiarPassword.setOnClickListener(v -> {
-            Toast.makeText(this, "Navegar a Cambiar Contraseña", Toast.LENGTH_SHORT).show();
-            // Lógica para Intent a CambiarPasswordActivity
         });
         btnEliminarAnuncios.setOnClickListener(v -> {
             Toast.makeText(this, "Mostrar diálogo de confirmación para eliminar anuncios",
                     Toast.LENGTH_SHORT).show();
             // Lógica para mostrar AlertDialog
         });
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
         btnCerrarSesion.setOnClickListener(v -> {
-            Toast.makeText(this, "Cerrando sesión...", Toast.LENGTH_SHORT).show();
-            // Lógica para cerrar sesión (Firebase/SharedPreferences) y navegar a LoginActivity
+            cerrarSesion();
         });
-<<<<<<< HEAD
-
     }
     private void configurarCabecera() {
         // Listener para el botón de retroceso (flecha <- )
         ImageButton btnBack = findViewById(R.id.btnBack);
         btnBack.setOnClickListener(v -> finish());
     }
-}
-=======
+    // SEMANA 8: INICIO DE LÓGICA DE CIERRE DE SESIÓN
+    private void cerrarSesion() {
+        // 1. Cierra la sesión de Firebase
+        mAuth.signOut();
+        // 2. Muestra un mensaje al usuario
+        Toast.makeText(this, "Sesión cerrada con éxito.", Toast.LENGTH_SHORT).show();
+        // 3. Navega de vuelta a la pantalla de Login y limpia la pila de actividades
+        Intent intent = new Intent(CuentaActivity.this, Login.class);
+        // Estas flags aseguran que el usuario no pueda usar el botón de retroceso para volver
+        // a la actividad anterior (Home o Cuenta) después de cerrar la sesión.
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+        finish();
     }
 }
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284

@@ -5,11 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     android:background="@color/blanco"
-=======
-    android:background="@color/white"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
     tools:context=".ChatActivity">
     <!-- 1. Cabecera (Header) -->
     <LinearLayout
@@ -19,11 +15,7 @@
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:paddingHorizontal="16dp"
-<<<<<<< HEAD
         android:background="@color/verdeEtiqueta"
-=======
-        android:background="@color/design_default_color_primary"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
@@ -35,11 +27,7 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@drawable/ic_arrow_back"
             android:contentDescription="Volver"
-<<<<<<< HEAD
             app:tint="@color/verdeclaro" />
-=======
-            app:tint="@color/white" />
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
         <!-- Foto de Perfil (Avatar) -->
         <ImageView
             android:id="@+id/imgProfile"
@@ -62,11 +50,7 @@
                 android:id="@+id/tvContactName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-<<<<<<< HEAD
                 android:textColor="@color/blanco"
-=======
-                android:textColor="@color/white"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
                 android:textSize="16sp"
                 android:textStyle="bold"
                 tools:text="DiegoDev" />
@@ -87,11 +71,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="8dp"
-<<<<<<< HEAD
-        android:background="@color/verdeclaro"
-=======
-        android:background="@color/white"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
+        android:background="@color/verde_esmeralda"
         android:gravity="center_vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -108,12 +88,8 @@
             android:background="@drawable/rounded_edittext_bg"
             android:imeOptions="actionDone"
             android:inputType="textCapSentences|textMultiLine"
-<<<<<<< HEAD
             android:textColor="@color/verdeclaro"
-=======
-            android:textColor="@color/black"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
-            android:textColorHint="#999999"/>
+            android:textColorHint="#4CAF50"/>
         <!-- Botón para Adjuntar Imagen (Icono de Galería) -->
         <ImageButton
             android:id="@+id/btnAttachImage"
@@ -123,11 +99,7 @@
             android:contentDescription="Adjuntar Imagen"
             android:background="@drawable/send_button_bg_secondary"
             android:src="@drawable/ic_gallery"
-<<<<<<< HEAD
             app:tint="@color/blanco"
-=======
-            app:tint="@color/design_default_color_primary"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
             android:scaleType="fitCenter"
             android:padding="12dp"/>
         <!-- Botón de Enviar (Icono de Avión de Papel) -->
@@ -139,11 +111,7 @@
             android:contentDescription="Botón Enviar Mensaje"
             android:background="@drawable/send_button_bg"
             android:src="@drawable/ic_send"
-<<<<<<< HEAD
             app:tint="@color/blanco"
-=======
-            app:tint="@color/white"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
             android:scaleType="fitCenter"
             android:padding="12dp"/>
     </LinearLayout>
@@ -152,11 +120,7 @@
         android:id="@+id/recyclerViewChat"
         android:layout_width="0dp"
         android:layout_height="0dp"
-<<<<<<< HEAD
-        android:background="@color/azul"
-=======
-        android:background="@color/white"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
+        android:background="@color/verde_pastel"
         android:paddingTop="8dp"
         android:clipToPadding="false"
         app:layout_constraintTop_toBottomOf="@id/layout_header"

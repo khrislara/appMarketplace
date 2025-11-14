@@ -1,15 +1,29 @@
-<<<<<<< HEAD
 <resources>
+    <!-- Verdes existentes -->
     <color name="verdeEtiqueta">#2E7D32</color> <!-- Verde oscuro -->
     <color name="verdeclaro">#ACF0AF</color>   <!-- Verde medio -->
-    <color name="blanco">#FFFFFF</color>       <!-- Blanco -->
-    <color name="azul">#95D3FF</color>
     <color name="verdementa">#96FF76</color>
+
+    <!-- Azules existentes -->
+    <color name="azul">#95D3FF</color>
+
+    <!-- Nuevos Verdes -->
+    <color name="verde_oscuro">#1B5E20</color>
+    <color name="verde_bosque">#388E3C</color>
+    <color name="verde_limon">#CDFF57</color>
+    <color name="verde_pastel">#C8F7C5</color>
+    <color name="verde_esmeralda">#50C878</color>
+    <color name="verde_mar">#2ECC71</color>
+
+    <!-- Nuevos Azules -->
+    <color name="azul_oscuro">#0D47A1</color>
+    <color name="azul_medio">#1976D2</color>
+    <color name="azul_claro">#BBDEFB</color>
+    <color name="azul_cielo">#81D4FA</color>
+    <color name="azul_turquesa">#40E0D0</color>
+    <color name="azul_marino">#003366</color>
+    <color name="azul_pastel">#A7C7E7</color>
+
+    <!-- Otros -->
+    <color name="blanco">#FFFFFF</color>       <!-- Blanco -->
 </resources>
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-</resources>
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284

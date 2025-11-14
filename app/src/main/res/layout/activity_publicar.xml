@@ -15,11 +15,7 @@
             android:id="@+id/toolbar_publicar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-<<<<<<< HEAD
             android:background="@color/verdeEtiqueta"
-=======
-            android:background="?attr/colorPrimary"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             app:title="Publicar Nuevo Producto" />
     </com.google.android.material.appbar.AppBarLayout>
@@ -62,11 +58,7 @@ producto" />
                         android:text="Seleccionar Imagen (Galería)"
                         android:layout_margin="8dp"
                         android:textColor="@android:color/white"
-<<<<<<< HEAD
                         android:backgroundTint="@color/verdeclaro"/>
-=======
-                        android:backgroundTint="?attr/colorAccent"/>
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <com.google.android.material.textfield.TextInputLayout
@@ -123,11 +115,7 @@ producto" />
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="@android:color/white"
-<<<<<<< HEAD
                 android:backgroundTint="@color/verdeEtiqueta" />
-=======
-                android:backgroundTint="?attr/colorPrimary" />
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

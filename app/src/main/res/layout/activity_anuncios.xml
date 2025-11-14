@@ -5,11 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    android:background="@color/verdeclaro"
-=======
-    android:background="@color/white"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
+    android:background="@color/verde_pastel"
     tools:context=".AnunciosActivity">
     <!-- 1. AppBar con la Toolbar -->
     <com.google.android.material.appbar.AppBarLayout
@@ -19,15 +15,9 @@
             android:id="@+id/toolbar_anuncios"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-<<<<<<< HEAD
             android:background="@color/verdeEtiqueta"
             app:title="Mis Anuncios"
             app:titleTextColor="@color/blanco" />
-=======
-            android:background="?attr/colorPrimary"
-            app:title="Mis Anuncios"
-            app:titleTextColor="@color/white" />
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
     </com.google.android.material.appbar.AppBarLayout>
     <!-- 2. Contenido Principal: RecyclerView de Productos -->
     <androidx.recyclerview.widget.RecyclerView

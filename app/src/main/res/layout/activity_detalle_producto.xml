@@ -15,11 +15,7 @@
             android:id="@+id/toolbar_detalle"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-<<<<<<< HEAD
             android:background="@color/verdeEtiqueta"
-=======
-            android:background="?attr/colorPrimary"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
             app:title="Detalles del Producto"
             app:navigationIcon="?attr/homeAsUpIndicator"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
@@ -70,11 +66,7 @@ contenido -->
                         android:text="Producto en Venta: Ejemplo de Alta Calidad"
                         android:textSize="24sp"
                         android:textStyle="bold"
-<<<<<<< HEAD
                         android:textColor="@color/verdeEtiqueta"
-=======
-                        android:textColor="@color/black"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -87,7 +79,7 @@ contenido -->
                         android:text="$ 99.990 CLP"
                         android:textSize="28sp"
                         android:textStyle="bold"
-                        android:textColor="?attr/colorAccent"
+                        android:textColor="@color/verde_bosque"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/tv_detalle_titulo"
                         />
@@ -97,7 +89,7 @@ contenido -->
                         android:layout_width="0dp"
                         android:layout_height="1dp"
                         android:layout_marginTop="16dp"
-                        android:background="@android:color/darker_gray"
+                        android:background="@color/verdeEtiqueta"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/tv_detalle_precio"
@@ -110,11 +102,7 @@ contenido -->
                         android:layout_marginTop="16dp"
                         android:text="Vendedor:"
                         android:textStyle="bold"
-<<<<<<< HEAD
                         android:textColor="@color/verdeEtiqueta"
-=======
-                        android:textColor="@color/black"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/divider" />
                     <!-- Nombre del Vendedor -->
@@ -124,7 +112,7 @@ contenido -->
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:text="Nombre de Usuario"
-                        android:textColor="?attr/colorPrimary"
+                        android:textColor="@color/verdeEtiqueta"
 
                         app:layout_constraintBaseline_toBaselineOf="@+id/tv_etiqueta_vendedor"
 
@@ -138,11 +126,7 @@ contenido -->
                         android:layout_marginTop="16dp"
                         android:text="Descripción:"
                         android:textStyle="bold"
-<<<<<<< HEAD
                         android:textColor="@color/verdeEtiqueta"
-=======
-                        android:textColor="@color/black"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
                         app:layout_constraintStart_toStartOf="parent"
 
                         app:layout_constraintTop_toBottomOf="@+id/tv_detalle_vendedor" />
@@ -173,12 +157,7 @@ contenido -->
         android:layout_marginBottom="16dp"
         android:text="Contactar Vendedor"
         app:icon="@android:drawable/ic_menu_send"
-<<<<<<< HEAD
         android:textColor="@color/blanco"
         app:backgroundTint="@color/verdeEtiqueta"
-=======
-        android:textColor="@color/white"
-        app:backgroundTint="?attr/colorPrimaryDark"
->>>>>>> 3bb0324d1dd7469dff558cda81328d3bfa9f8284
         app:cornerRadius="12dp" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
