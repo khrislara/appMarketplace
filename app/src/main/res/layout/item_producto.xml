@@ -17,7 +17,7 @@
             android:layout_width="0dp"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/bicicleta"
+            android:src="@drawable/celular"
             android:contentDescription="Imagen del producto en venta"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"

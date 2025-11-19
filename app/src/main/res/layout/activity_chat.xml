@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:src="@drawable/ic_arrow_back"
+            android:src="@drawable/volver"
             android:contentDescription="Volver"
             app:tint="@color/verdeclaro" />
         <!-- Foto de Perfil (Avatar) -->
@@ -89,7 +89,7 @@
             android:imeOptions="actionDone"
             android:inputType="textCapSentences|textMultiLine"
             android:textColor="@color/verdeclaro"
-            android:textColorHint="#4CAF50"/>
+            android:textColorHint="#125400"/>
         <!-- Botón para Adjuntar Imagen (Icono de Galería) -->
         <ImageButton
             android:id="@+id/btnAttachImage"

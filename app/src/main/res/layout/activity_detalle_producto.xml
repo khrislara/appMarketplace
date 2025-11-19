@@ -17,7 +17,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@color/verdeEtiqueta"
             app:title="Detalles del Producto"
-            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:navigationIcon="@drawable/volver"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
     </com.google.android.material.appbar.AppBarLayout>
     <!-- Contenido desplazable del detalle del producto -->
@@ -156,7 +156,7 @@ contenido -->
         android:layout_gravity="bottom|center"
         android:layout_marginBottom="16dp"
         android:text="Contactar Vendedor"
-        app:icon="@android:drawable/ic_menu_send"
+        app:icon="@drawable/avion"
         android:textColor="@color/blanco"
         app:backgroundTint="@color/verdeEtiqueta"
         app:cornerRadius="12dp" />
